@@ -21,11 +21,15 @@ We expect your solution to be designed using orchestration tool of your choice e
   
 Brownie points if the application is running.
 
-  **Usage**
+  **Guide**
   
   1. Terraform is used to setup the environment on the cloud (AWS)
-  2. EC2 instance is spin-up and microk8s and docker are installed.
-  3. Dockerfile has the instruction to copy the mediawiki files to the /www/html/ on apache2.
-  4. makefile is used to build the docker image and bring the pod using microk8s.
+  
+  2. EC2 instance is spin-up and microk8s and docker are installed. 
+  
+  3. [mediawiki repo](https://github.com/ramakrishnakaushik97/mediawiki) is used to setup the mediawiki pod
+  
+      * Dockerfile has the instruction to copy the mediawiki files to the /var/www/html on apache2.
+      * makefile has all the instruction to build the docker image and bring up mediawiki pod using microk8s.
   
  
