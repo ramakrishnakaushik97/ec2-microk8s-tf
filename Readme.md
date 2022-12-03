@@ -1,4 +1,4 @@
-**Challenge- I **
+**Challenge- I**
 
 We want to automate the deployment of mediawiki on docker/K8/OpenShift, we’d like to see code file.
   
