@@ -18,4 +18,4 @@ newgrp microk8s
 # Enabling Important Addons
 microk8s enable dns storage
 # install docker
-sudo snap install docker 
+# sudo snap install docker 
