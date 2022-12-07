@@ -48,5 +48,4 @@ Brownie points if the application is running.
 
       **Update** : Docker image is uploaded to DockerHub (ramakrishnakaushik97/mediawiki-apache:1.0)
 
-  
  
