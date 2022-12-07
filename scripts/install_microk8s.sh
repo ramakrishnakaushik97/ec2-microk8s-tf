@@ -11,7 +11,7 @@ sudo ufw default allow routed;
 # Step 3: Adding Your User to the MicroK8s Group
 sudo usermod -aG microk8s $USER;
 sudo chown -f -R $USER ~/.kube;
-newgrp microk8s;
+# newgrp microk8s;
 # Enabling Important Addons
 microk8s enable dns storage
 # install docker

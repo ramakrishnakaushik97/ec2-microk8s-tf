@@ -45,5 +45,8 @@ Brownie points if the application is running.
   
       * Dockerfile has the instruction to copy the mediawiki files to the /var/www/html on apache2.
       * makefile has all the instruction to build the docker image and bring up mediawiki pod using microk8s.
+
+      **Update** : Docker image is uploaded to DockerHub (ramakrishnakaushik97/mediawiki-apache:1.0)
+
   
  

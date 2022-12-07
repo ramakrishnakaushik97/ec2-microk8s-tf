@@ -84,7 +84,7 @@ resource "aws_security_group" "mediawiki_instance_sg" {
   ingress {
     description = "http"
     from_port   = 80
-    to_port     = 80
+    to_port     = 32222 # expose NodePort
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
 
